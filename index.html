@@ -1,0 +1,17 @@
+---
+layout: homepage
+title: "Home"
+---
+<h1>Welcome to the Plain Data Blog!</h1>
+
+This blog is all about <b>Data Engineering</b>.
+To learn more, also check the <a href="/about">About</a> page and the <a href="/archive">Archive</a>
+
+<br>
+<br>
+
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
