@@ -52,7 +52,7 @@ A shift in mindset is needed, emphasizing that estimates are approximations mean
 
 You might cause even more damage than you're aware of. This practice is taxing on the mental health of developers to say the least. Imagine at all times being on a deadline that's at most (!) two weeks away and half the time less than a week away. IMHO these arbitrary sprint deadlines are one of the main drivers of burnout in developers and developers quitting a job.
 
-**Fix:**
+**Fix:** Don't assign blame to missed estimates. If at all possible, do away with estimates altogether. They're not helping the team to develop working software. They're causing unnecassary stress which will cause developers to seek greener pastures which will slow down your project even more.
 
 ### Attempting to plan multiple sprints ahead
 
@@ -61,6 +61,8 @@ Scrum is meant to enable agile software development, i.e. being able to quickly 
 It's almost certain that you will need to update your plan at the end of each sprint. With this in mind, it doesn't make much sense to plan multiple sprints ahead, because they are interdependent. By forcing people to constantly update plans that are doomed from the beginning you create unnecessary busywork. It's an illusion that you can plan months ahead when constantly changing requirements and problems being discovered along the road are the norm. 
 
 Certainly this doesn't help with producing working software, which is what you should actually be concerned with. If you find yourself in a situation where you spend an awful amount of time on producing these nearly worthless estimates, you know you've become the victim of bad management. Even worse, when management wants to hold you accountable for these *estimates* and treats them as deadlines, see the point above.
+
+**Fix:** Convince your higher ups that creating these predictions doesn't add value to the project and often causes unnecessary drama which slows done the development effort. 
 
 ### Unclear acceptance criteria
 
@@ -72,6 +74,12 @@ Before starting to work on a story there should be clearly defined acceptance cr
 
 Having we--defined acceptance criteria in place before the you start your work should be the most basic and will do wonders for your mental health as a developer. Imagine you were signing a contract that you will get this work done by the end of two weeks. You would probably not just sign anything before you read it and you would want your contract partner to spell out exactly what he wants before he's paying you rather than sueing you.
 
+**Fix:** Developers should enforce the PO to write [SMART](https://en.wikipedia.org/wiki/SMART_criteria) accepratance criteria. Perhaps the Definition of Done, a set of requirements that typically includes the acceptance criteria, also needs clarification.
 
+### Closing words
 
+I'm fully aware that the root cause of most of these issues is simply bad management and that bad management is often the result of bad management higher up the hierarchy. In my cases, particularly in big organizations, the root cause is so far removed from the issues that they don't care to fix them. Often you have to choose between doing what's best for the project and what would make the world a little bit better on the one side and what's best for you personally as someone who wants to make a living on the other side.
 
+I still hope you either gained some insight into the reasons why nowadays Scrum is disliked by most developers and almost synonymous to bad management.
+
+There's even more wrong with Scrum from a developer's perspective though. Read this second post for my thoughts on a second set of flaws with Scrum, albeit less severe ones.
